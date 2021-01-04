@@ -1,0 +1,20 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #606266;
+}
+
+.text-small {
+  font-size: 13px;
+}
+
+.text-extra-small {
+  font-size: 12px;
+}
