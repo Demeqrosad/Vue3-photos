@@ -1,12 +1,10 @@
 import { createStore } from 'vuex'
+import Photos from '@/store/modules/Photos'
+import Categories from '@/store/modules/Categories'
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    Photos,
+    Categories
   }
 })
